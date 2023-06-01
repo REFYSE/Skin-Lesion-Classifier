@@ -3,6 +3,7 @@ This classifier was developed for my Bachelor's Thesis.
 
 ### DATA SETUP
 Download the [train](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000) and [test](https://kaggle.com/datasets/991ec8f5e527dd9009c8e524b5572622f02cf0d605365cab2fa424d2256bddcf) sets.
+These are expected in `data_dir`, `./data` by default.
  
 ### Training
 Training command
