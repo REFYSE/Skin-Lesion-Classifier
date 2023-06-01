@@ -36,4 +36,4 @@ python test.py --data-dir [./data] --test-folder [ham10000-test] --ensemble-dir 
 
 ### A lightweight ensemble of EfficientNets
 
-The current models in `./ensemble` are the final 82.1% BMCA nad 84.2% accuracy with a ~30ms inference time using a P100 GPU
+The current models in `./ensemble` are the final 82.1% BMCA and 84.2% accuracy with a ~30ms inference time using a P100 GPU
