@@ -83,7 +83,7 @@ def get_train_loader(df_train, batch_size, image_size, sampling_method='NONE'):
         sampler = balanced_batch_sample(df_train)
         return df_train, DataLoader(train_set, batch_size=batch_size, sampler=sampler, num_workers=2, pin_memory=True)
     else:
-        return df_train, DataLoader(train_set, batch_size=batch_size, shuffle=False, num_workers=2, pin_memory=True)
+        return df_train, DataLoader(train_set, batch_size=batch_size, shuffle=True, num_workers=2, pin_memory=True)
 
 def get_val_loader(df_val, batch_size, image_size):
     _, val_transforms, _ = get_transforms(image_size)
